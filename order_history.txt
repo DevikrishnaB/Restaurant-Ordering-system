@@ -1,0 +1,75 @@
+
+=======================================================
+              🍔 TASTY BITES
+              🧾 ORDER BILL
+=======================================================
+🆔 Order ID: TB1001
+👤 Customer Name: Devikrishna B
+📞 Phone Number: 1122334455
+🍽️ Order Type: Dine-In
+💳 Payment Method: UPI
+-------------------------------------------------------
+Chicken Wings | Quantity: 1 | Price: ₹180 | Total: ₹180.00
+Fresh Lime Juice | Quantity: 1 | Price: ₹70 | Total: ₹70.00
+-------------------------------------------------------
+Subtotal: ₹250.00
+Discount: ₹0.00
+GST (5%): ₹12.50
+Final Amount: ₹262.50
+=======================================================
+
+=======================================================
+              🍔 TASTY BITES
+              🧾 ORDER BILL
+=======================================================
+🆔 Order ID: TB1002
+👤 Customer Name: Bindu
+📞 Phone Number: 9988776655
+🍽️ Order Type: Takeaway
+💳 Payment Method: Cash
+-------------------------------------------------------
+Mango Shake | Quantity: 1 | Price: ₹120 | Total: ₹120.00
+Brownie | Quantity: 1 | Price: ₹120 | Total: ₹120.00
+-------------------------------------------------------
+Subtotal: ₹240.00
+Discount: ₹0.00
+GST (5%): ₹12.00
+Final Amount: ₹252.00
+=======================================================
+
+=======================================================
+              🍔 TASTY BITES
+              🧾 ORDER BILL
+=======================================================
+🆔 Order ID: TB1003
+👤 Customer Name: Shiva
+📞 Phone Number: 5566774433
+🍽️ Order Type: Takeaway
+💳 Payment Method: Cash
+-------------------------------------------------------
+Margherita Pizza | Quantity: 1 | Price: ₹180 | Total: ₹180.00
+Soft Drink | Quantity: 1 | Price: ₹60 | Total: ₹60.00
+-------------------------------------------------------
+Subtotal: ₹240.00
+Discount: ₹0.00
+GST (5%): ₹12.00
+Final Amount: ₹252.00
+=======================================================
+
+=======================================================
+              🍔 TASTY BITES
+              🧾 ORDER BILL
+=======================================================
+🆔 Order ID: TB1004
+👤 Customer Name: Adithyan
+📞 Phone Number: 2299001122
+🍽️ Order Type: Takeaway
+💳 Payment Method: Card
+-------------------------------------------------------
+Ice Cream | Quantity: 1 | Price: ₹90 | Total: ₹90.00
+-------------------------------------------------------
+Subtotal: ₹90.00
+Discount: ₹0.00
+GST (5%): ₹4.50
+Final Amount: ₹94.50
+=======================================================
