@@ -1,7 +1,9 @@
 # Restaurant-Ordering-system
+
 # 🍔 Tasty Bites - Restaurant Ordering System
 
 A simple **Python-based restaurant ordering system** that allows users to view the menu, add items to a cart, update or remove items, place orders, generate bills, and maintain order history.
+
 The main objective of this project is to build a simple restaurant ordering system using Python while practicing **Object-Oriented Programming, data structures, functions, loops, conditional statements, exception handling, and file handling**.
 
 ## ✨ Features
@@ -122,14 +124,13 @@ order_history.txt
 
 The file contains customer details, ordered items, payment method, subtotal, discount, GST, and final amount.
 
-```text
-**SAMPLE OUTPUT**
-```
+## 🖥️ Sample Output
 
-============================================================
-          🍔 WELCOME TO TASTY BITES 🍔
-          🍽️ Your Favourite Food Place!
-============================================================
+```text
+==================================================
+             🍔 WELCOME TO TASTY BITES 🍔
+             🍽️ Your Favourite Food Place!
+==================================================
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
 3. 👀 View Cart
@@ -147,6 +148,7 @@ The file contains customer details, ordered items, payment method, subtotal, dis
 ➡️ Entered Choice: 1 - View Menu
 
 🍔 TASTY BITES RESTAURANT
+=======================================================
 
 🍟 STARTERS
 -------------------------------------------------------
@@ -177,7 +179,6 @@ The file contains customer details, ordered items, payment method, subtotal, dis
 116. Brownie                   ₹120
 =======================================================
 
-
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
 3. 👀 View Cart
@@ -195,6 +196,7 @@ The file contains customer details, ordered items, payment method, subtotal, dis
 ➡️ Entered Choice: 2 - Add Items to Cart
 
 🍔 TASTY BITES RESTAURANT
+=======================================================
 
 🍟 STARTERS
 -------------------------------------------------------
@@ -239,7 +241,6 @@ The file contains customer details, ordered items, payment method, subtotal, dis
 
 🛒 Enter Item ID to add to cart (0 to finish): 0
 
-
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
 3. 👀 View Cart
@@ -257,16 +258,15 @@ The file contains customer details, ordered items, payment method, subtotal, dis
 ➡️ Entered Choice: 3 - View Cart
 
 🛒 YOUR CART
-======================================================
+======================================================================
 Item                     Qty     Price       Total
-------------------------------------------------------
+----------------------------------------------------------------------
 Chicken Wings            1       ₹180        ₹180
 Fresh Lime Juice         2       ₹70         ₹140
 Chocolate Cake           1       ₹130        ₹130
-------------------------------------------------------
-💰 Grand Total                                      ₹450
-======================================================
-
+----------------------------------------------------------------------
+💰 Grand Total                                ₹450
+======================================================================
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -285,20 +285,19 @@ Chocolate Cake           1       ₹130        ₹130
 ➡️ Entered Choice: 4 - Update Cart
 
 🛒 YOUR CART
-======================================================
+======================================================================
 Item                     Qty     Price       Total
-------------------------------------------------------
+----------------------------------------------------------------------
 Chicken Wings            1       ₹180        ₹180
 Fresh Lime Juice         2       ₹70         ₹140
 Chocolate Cake           1       ₹130        ₹130
-------------------------------------------------------
-💰 Grand Total                                      ₹450
-======================================================
+----------------------------------------------------------------------
+💰 Grand Total                                ₹450
+======================================================================
 
 ✏️ Enter Item ID to update: 110
 🔢 Enter new quantity: 1
 ✅ Cart updated successfully.
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -317,25 +316,23 @@ Chocolate Cake           1       ₹130        ₹130
 ➡️ Entered Choice: 5 - Remove Item
 
 🛒 YOUR CART
-======================================================
+======================================================================
 Item                     Qty     Price       Total
-------------------------------------------------------
+----------------------------------------------------------------------
 Chicken Wings            1       ₹180        ₹180
 Fresh Lime Juice         1       ₹70         ₹70
 Chocolate Cake           1       ₹130        ₹130
-------------------------------------------------------
-💰 Grand Total                                      ₹380
-======================================================
+----------------------------------------------------------------------
+💰 Grand Total                                ₹380
+======================================================================
 
 🗑️ Enter Item ID to remove: 114
 
 ⚠️ Are you sure you want to remove Chocolate Cake?
-
 1. ✅ Yes
 2. ❌ No
 👉 Enter your choice: 1
 🗑️ Chocolate Cake removed from cart.
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -359,17 +356,21 @@ Chocolate Cake           1       ₹130        ₹130
 📞 Enter your phone number: 1122334455
 
 🍽️ ORDER TYPE
+
 1. Dine-In
 2. Takeaway
 👉 Enter your choice: 1
 
 💳 PAYMENT METHOD
+
 1. 💵 Cash
 2. 📱 UPI
 3. 💳 Card
 👉 Enter payment method: 2
 
-🧾 FINAL BILL
+======================================================================
+                 🧾 FINAL BILL
+                 🍔 TASTY BITES
 ======================================================================
 🆔 Order ID       : TB1001
 👤 Customer Name  : Devikrishna B
@@ -383,8 +384,8 @@ Chicken Wings            1       ₹180        ₹180
 Fresh Lime Juice         1       ₹70         ₹70
 ----------------------------------------------------------------------
 💰 Subtotal                                      ₹250.00
-🎁 Discount                                        ₹0.00
-🧾 GST (5%)                                       ₹12.50
+🎁 Discount                                      ₹0.00
+🧾 GST (5%)                                      ₹12.50
 ----------------------------------------------------------------------
 💵 FINAL AMOUNT                                  ₹262.50
 ======================================================================
@@ -396,7 +397,6 @@ Fresh Lime Juice         1       ₹70         ₹70
 💳 Payment Method: UPI
 💾 Order saved successfully.
 🙏 Thank you for ordering from Tasty Bites!
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -414,37 +414,6 @@ Fresh Lime Juice         1       ₹70         ₹70
 👉 Enter your choice: 2
 ➡️ Entered Choice: 2 - Add Items to Cart
 
-🍔 TASTY BITES RESTAURANT
-
-🍟 STARTERS
--------------------------------------------------------
-101. French Fries              ₹100
-102. Chicken Nuggets           ₹140
-103. Garlic Bread              ₹120
-104. Chicken Wings             ₹180
-
-🍕 MAIN COURSE
--------------------------------------------------------
-105. Margherita Pizza          ₹180
-106. Chicken Burger            ₹150
-107. Chicken Fried Rice        ₹170
-108. Veg Noodles               ₹140
-109. Chicken Biryani           ₹220
-
-🥤 BEVERAGES
--------------------------------------------------------
-110. Fresh Lime Juice          ₹70
-111. Cold Coffee               ₹110
-112. Mango Shake               ₹120
-113. Soft Drink                ₹60
-
-🍰 DESSERTS
--------------------------------------------------------
-114. Chocolate Cake            ₹130
-115. Ice Cream                 ₹90
-116. Brownie                   ₹120
-=======================================================
-
 🛒 Enter Item ID to add to cart (0 to finish): 112
 🔢 Enter quantity: 1
 ✅ 1 x Mango Shake added to cart.
@@ -454,7 +423,6 @@ Fresh Lime Juice         1       ₹70         ₹70
 ✅ 1 x Brownie added to cart.
 
 🛒 Enter Item ID to add to cart (0 to finish): 0
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -478,11 +446,13 @@ Fresh Lime Juice         1       ₹70         ₹70
 📞 Enter your phone number: 9988776655
 
 🍽️ ORDER TYPE
+
 1. Dine-In
 2. Takeaway
 👉 Enter your choice: 2
 
 💳 PAYMENT METHOD
+
 1. 💵 Cash
 2. 📱 UPI
 3. 💳 Card
@@ -490,20 +460,14 @@ Fresh Lime Juice         1       ₹70         ₹70
 
 🧾 FINAL BILL
 ======================================================================
-🆔 Order ID       : TB1002
-👤 Customer Name  : Bindu
-📞 Phone Number   : 9988776655
-🍽️ Order Type     : Takeaway
-💳 Payment Method : Cash
-----------------------------------------------------------------------
 Item                     Qty     Price       Total
 ----------------------------------------------------------------------
 Mango Shake              1       ₹120        ₹120
 Brownie                  1       ₹120        ₹120
 ----------------------------------------------------------------------
 💰 Subtotal                                      ₹240.00
-🎁 Discount                                        ₹0.00
-🧾 GST (5%)                                       ₹12.00
+🎁 Discount                                      ₹0.00
+🧾 GST (5%)                                      ₹12.00
 ----------------------------------------------------------------------
 💵 FINAL AMOUNT                                  ₹252.00
 ======================================================================
@@ -515,7 +479,6 @@ Brownie                  1       ₹120        ₹120
 💳 Payment Method: Cash
 💾 Order saved successfully.
 🙏 Thank you for ordering from Tasty Bites!
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -540,7 +503,6 @@ Brownie                  1       ₹120        ₹120
 🎉 Weekend special offers available
 🍰 Special dessert offers for selected orders
 ============================================================
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -579,7 +541,6 @@ Brownie                  1       ₹120        ₹120
 - Sunday
 ============================================================
 
-
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
 3. 👀 View Cart
@@ -598,9 +559,8 @@ Brownie                  1       ₹120        ₹120
 
 📋 ORDER HISTORY
 ============================================================
-[Previous saved orders will be displayed here]
+[Previously saved orders will be displayed here]
 ============================================================
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -617,37 +577,6 @@ Brownie                  1       ₹120        ₹120
 ==================================================
 👉 Enter your choice: 2
 ➡️ Entered Choice: 2 - Add Items to Cart
-
-🍔 TASTY BITES RESTAURANT
-
-🍟 STARTERS
--------------------------------------------------------
-101. French Fries              ₹100
-102. Chicken Nuggets           ₹140
-103. Garlic Bread              ₹120
-104. Chicken Wings             ₹180
-
-🍕 MAIN COURSE
--------------------------------------------------------
-105. Margherita Pizza          ₹180
-106. Chicken Burger            ₹150
-107. Chicken Fried Rice        ₹170
-108. Veg Noodles               ₹140
-109. Chicken Biryani           ₹220
-
-🥤 BEVERAGES
--------------------------------------------------------
-110. Fresh Lime Juice          ₹70
-111. Cold Coffee               ₹110
-112. Mango Shake               ₹120
-113. Soft Drink                ₹60
-
-🍰 DESSERTS
--------------------------------------------------------
-114. Chocolate Cake            ₹130
-115. Ice Cream                 ₹90
-116. Brownie                   ₹120
-=======================================================
 
 🛒 Enter Item ID to add to cart (0 to finish): 105
 🔢 Enter quantity: 1
@@ -681,11 +610,13 @@ Brownie                  1       ₹120        ₹120
 📞 Enter your phone number: 5566774433
 
 🍽️ ORDER TYPE
+
 1. Dine-In
 2. Takeaway
 👉 Enter your choice: 2
 
 💳 PAYMENT METHOD
+
 1. 💵 Cash
 2. 📱 UPI
 3. 💳 Card
@@ -693,20 +624,14 @@ Brownie                  1       ₹120        ₹120
 
 🧾 FINAL BILL
 ======================================================================
-🆔 Order ID       : TB1003
-👤 Customer Name  : Shiva
-📞 Phone Number   : 5566774433
-🍽️ Order Type     : Takeaway
-💳 Payment Method : Cash
-----------------------------------------------------------------------
 Item                     Qty     Price       Total
 ----------------------------------------------------------------------
 Margherita Pizza         1       ₹180        ₹180
 Soft Drink               1       ₹60         ₹60
 ----------------------------------------------------------------------
 💰 Subtotal                                      ₹240.00
-🎁 Discount                                        ₹0.00
-🧾 GST (5%)                                       ₹12.00
+🎁 Discount                                      ₹0.00
+🧾 GST (5%)                                      ₹12.00
 ----------------------------------------------------------------------
 💵 FINAL AMOUNT                                  ₹252.00
 ======================================================================
@@ -718,7 +643,6 @@ Soft Drink               1       ₹60         ₹60
 💳 Payment Method: Cash
 💾 Order saved successfully.
 🙏 Thank you for ordering from Tasty Bites!
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -739,10 +663,21 @@ Soft Drink               1       ₹60         ₹60
 🔍 Enter Order ID to search: TB1001
 
 🔎 ORDER FOUND
-============================================================
-[Order details for TB1001 will be displayed here]
-============================================================
-
+=============================================================
+ Order ID: TB1001
+👤 Customer Name: Devikrishna B
+📞 Phone Number: 1122334455
+🍽️ Order Type: Dine-In
+💳 Payment Method: UPI
+-------------------------------------------------------------
+Chicken Wings | Quantity: 1 | Price: ₹180 | Total: ₹180.00
+Fresh Lime Juice | Quantity: 1 | Price: ₹70 | Total: ₹70.00
+-------------------------------------------------------------
+Subtotal: ₹250.00
+Discount: ₹0.00
+GST (5%): ₹12.50
+Final Amount: ₹262.50
+=============================================================
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -760,43 +695,11 @@ Soft Drink               1       ₹60         ₹60
 👉 Enter your choice: 2
 ➡️ Entered Choice: 2 - Add Items to Cart
 
-🍔 TASTY BITES RESTAURANT
-
-🍟 STARTERS
--------------------------------------------------------
-101. French Fries              ₹100
-102. Chicken Nuggets           ₹140
-103. Garlic Bread              ₹120
-104. Chicken Wings             ₹180
-
-🍕 MAIN COURSE
--------------------------------------------------------
-105. Margherita Pizza          ₹180
-106. Chicken Burger            ₹150
-107. Chicken Fried Rice        ₹170
-108. Veg Noodles               ₹140
-109. Chicken Biryani           ₹220
-
-🥤 BEVERAGES
--------------------------------------------------------
-110. Fresh Lime Juice          ₹70
-111. Cold Coffee               ₹110
-112. Mango Shake               ₹120
-113. Soft Drink                ₹60
-
-🍰 DESSERTS
--------------------------------------------------------
-114. Chocolate Cake            ₹130
-115. Ice Cream                 ₹90
-116. Brownie                   ₹120
-=======================================================
-
 🛒 Enter Item ID to add to cart (0 to finish): 115
 🔢 Enter quantity: 1
 ✅ 1 x Ice Cream added to cart.
 
 🛒 Enter Item ID to add to cart (0 to finish): 0
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -820,11 +723,13 @@ Soft Drink               1       ₹60         ₹60
 📞 Enter your phone number: 2299001122
 
 🍽️ ORDER TYPE
+
 1. Dine-In
 2. Takeaway
 👉 Enter your choice: 2
 
 💳 PAYMENT METHOD
+
 1. 💵 Cash
 2. 📱 UPI
 3. 💳 Card
@@ -832,21 +737,15 @@ Soft Drink               1       ₹60         ₹60
 
 🧾 FINAL BILL
 ======================================================================
-🆔 Order ID       : TB1004
-👤 Customer Name  : Adithyan
-📞 Phone Number   : 2299001122
-🍽️ Order Type     : Takeaway
-💳 Payment Method : Card
-----------------------------------------------------------------------
 Item                     Qty     Price       Total
 ----------------------------------------------------------------------
 Ice Cream                1       ₹90         ₹90
 ----------------------------------------------------------------------
 💰 Subtotal                                      ₹90.00
-🎁 Discount                                        ₹0.00
-🧾 GST (5%)                                        ₹4.50
+🎁 Discount                                      ₹0.00
+🧾 GST (5%)                                      ₹4.50
 ----------------------------------------------------------------------
-💵 FINAL AMOUNT                                   ₹94.50
+💵 FINAL AMOUNT                                  ₹94.50
 ======================================================================
 
 💾 Complete order saved to order_history.txt
@@ -856,7 +755,6 @@ Ice Cream                1       ₹90         ₹90
 💳 Payment Method: Card
 💾 Order saved successfully.
 🙏 Thank you for ordering from Tasty Bites!
-
 
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
@@ -879,7 +777,6 @@ Ice Cream                1       ₹90         ₹90
 [All previously saved orders will be displayed here]
 ============================================================
 
-
 1. 📋 View Menu
 2. 🛒 Add Items to Cart
 3. 👀 View Cart
@@ -898,3 +795,27 @@ Ice Cream                1       ₹90         ₹90
 
 🙏 Thank you for visiting Tasty Bites!
 👋 Have a great day!
+```
+
+## 🛠️ Technologies Used
+
+* 🐍 Python
+* 🧱 Object-Oriented Programming
+* 📦 Python Data Structures
+* 🔁 Loops and Conditional Statements
+* ⚠️ Exception Handling
+* 📁 File Handling
+
+## ▶️ How to Run
+
+1. Clone or download the repository.
+2. Open the project folder in VS Code or any Python IDE.
+3. Run the following command:
+
+```bash
+python restaurant.py
+```
+
+4. Follow the instructions displayed in the terminal.
+
+
